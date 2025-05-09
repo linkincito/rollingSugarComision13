@@ -13,3 +13,18 @@ main{
     aspect-ratio: 1/1;
     object-fit: cover;
 }
+
+.videoPortada{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: 20% 32%;
+
+}
+
+
+@media (width >= 992px){
+    .videoPortada{
+        height: 450px;
+    }
+}
