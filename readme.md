@@ -10,7 +10,7 @@ Mira el demo del proyecto aqui [Aqui](https://rollingsugarcomision13.netlify.app
 - HTML 5
 - Css3
 - [Bootstrap v5.3](https://getbootstrap.com/)
-- 
+
 
 ## Como ejectutar el proyecto 
 
