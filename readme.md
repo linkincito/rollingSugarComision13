@@ -14,7 +14,11 @@ Mira el demo del proyecto aqui [Aqui](https://rollingsugarcomision13.netlify.app
 
 ## Como ejectutar el proyecto 
 
+<<<<<<< HEAD
 1. Clonar repositorio escribiendo desde una terminal el siguiente [comando](https://github.com/linkincito/rollingSugarComision13.git)
+=======
+1. Clonar repositorio escribiendo desde una terminal el siguiente comando.
+>>>>>>> dev
 
 
 
