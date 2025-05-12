@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="recetas">
     <meta name="author" content="German Jimenez">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
@@ -18,7 +18,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand fs-3" href="index.html">Rolling Sugar<i class="bi bi-boxes link-info"></i></a>
+                <a class="navbar-brand fs-3" href="../index.html">Rolling Sugar<i class="bi bi-boxes link-info"></i></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -27,15 +27,15 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active fs-5" aria-current="page" href="./index.html">Inicio</a>
+                            <a class="nav-link  fs-5" aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-5" href="./pages/recetas.html">Recetas</a>
+                            <a class="nav-link fs-5" href="grilladerecetas.html">Grilla de recetas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-5" href="./pages/contacto.html">Productos</a>
+                            <a class="nav-link fs-5 active" href="contacto.html">Contacto</a>
                         </li>
-                        <a class="nav-link fs-5" href="./pages/contacto.html">Contacto</a>
+                        <a class="nav-link fs-5" href="error404.html">Error404</a>
                     </ul>
 
                 </div>
@@ -43,116 +43,35 @@
         </nav>
     </header>
     <main class="container">
-        <div class="container-video">
-             <video src="https://www.pexels.com/es-es/download/video/13156215/?fps=24.0&h=1920&w=1080"
-            class="img-fluid videoPortada w-100" class="ratio ratio-16x9 " autoplay muted loop></video> 
+        <h1>Dejanos tu receta y contanos cual fue la que más te gustó!</h1>
+        <div class="mb-3 w-50">
+            <label for=""></label>
+            <label for="emailPrincipal" class="form-label">¡Dejanos tu email asi nos compartimos recetas!</label>
+            <input type="email" class="form-control" id="emailPrincipal" minlength="10" maxlength="100"
+                placeholder="name@example.com" required>
         </div>
-      
-        <section class="my-4">
+        <div class="mb-3 w-50">
+            <label class="fs-5 p-4" for="emailPrincipalTextArea" class="form-label">¡Contanos cual receta te gusto más y
+                compartinos la tuya!</label>
+            <textarea class="form-control" id="emailPrincipalTextArea" rows="3" class="fs-5 p-4" minlength="20"
+                maxlength="600" required placeholder="En 600 palabras dejanos tu opinión"></textarea>
+        </div>
 
-            <h1 class="text-center display-4">Elegí qué querés cocinar</h1>
-            <div class='row row-gap-2 d-flex justify-content-between '>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <a class="link-underline link-underline-opacity-0" href="./pages/recetas.html"> <img
-                            class="rounded-circle imgCategoria"
-                            src="https://images.pexels.com/photos/17358380/pexels-photo-17358380/free-photo-of-tower-of-argentinian-cookies.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                            alt="alfajoresRicos">
-                        <h5 class="text-center mt-2 text-dark">Alfajores</h5>
-                    </a>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <a class="link-underline link-underline-opacity-0" href="./pages/recetas.html"> <img
-                            class="rounded-circle imgCategoria" src="./img/budin.bmp" alt="budincitos">
-                        <h5 class="text-center mt-2 text-dark">Budín</h5>
-                    </a>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <a class="link-underline link-underline-opacity-0" href="./pages/recetas.html"> <img
-                            class="rounded-circle imgCategoria" src="./img/mufins.bmp" alt="muffins">
-                        <h5 class="text-center mt-2 text-dark">Muffins</h5>
-                    </a>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <a class="link-underline link-underline-opacity-0" href="./pages/recetas.html"> <img
-                            class="rounded-circle imgCategoria" src="./img/tartasytortas.bmp" alt="tortasYtartas">
-                        <h5 class="text-center mt-2 text-dark">Tortas y tartas</h5>
-                    </a>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <a class="link-underline link-underline-opacity-0" href="./pages/recetas.html"> <img
-                            class="rounded-circle imgCategoria" src="./img/postres.bmp" alt="postres">
-                        <h5 class="text-center mt-2 text-dark">Postres</h5>
-                    </a>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <a class="link-underline link-underline-opacity-0" href="./pages/recetas.html"> <img
-                            class="rounded-circle imgCategoria" src="./img/paraelte.bmp" alt="paraElTe">
-                        <h5 class="text-center mt-2 text-dark">Para el té</h5>
-                    </a>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <a class="link-underline link-underline-opacity-0" href="./pages/recetas.html"> <img
-                            class="rounded-circle imgCategoria" src="./img/galletitas.bmp" alt="galletitas">
-                        <h5 class="text-center mt-2 text-dark">Galletitas</h5>
-                    </a>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <a class="link-underline link-underline-opacity-0" href="./pages/recetas.html"> <img
-                            class="rounded-circle imgCategoria" src="./img/otrasrecetas.bmp" alt="otrasRecetas">
-                        <h5 class="text-center mt-2 text-dark">Otras recetas</h5>
-                    </a>
-                </div>
-                <div class="bg-primary py-4 text-center text-light p-5">
-                    <h5>
-                        Transforma ingredientes en emociones...
-                        ¡Cada bocado cuenta una historia!</h5>
-                </div>
-                <h4 class="text-center fs-5">Comunidad</h4>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <a href="./pages/recetas.html"> <img class=" imgCategoria" src="./img/comunidad.bmp"
-                            alt="comunidad1">
-                        <h5 class="text-center mt-2"></h5>
-                    </a>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <a href="#"> <img class=" imgCategoria" src="./img/comunidad2.bmp" alt="comunidad2">
-                        <h5 class="text-center mt-2"></h5>
-                    </a>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <a href="#"> <img class=" imgCategoria" src="./img/comunidad3.bmp" alt="comunidad3">
-                        <h5 class="text-center mt-2"></h5>
-                    </a>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <a href="#"> <img class=" imgCategoria" src="./img/comunidad4.bmp" alt="comunidad4">
-                        <h5 class="text-center mt-2"></h5>
-                    </a>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <a href="#"> <img class=" imgCategoria" src="./img/comunidad5.bmp" alt="comunidad5">
-                        <h5 class="text-center mt-2"></h5>
-                    </a>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <a href="#"> <img class=" imgCategoria" src="./img/comunidad6.bmp" alt="comunidad6">
-                        <h5 class="text-center mt-2"></h5>
-                    </a>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <a href="#"> <img class=" imgCategoria" src="./img/comunidad7.bmp" alt="comunidad7">
-                        <h5 class="text-center mt-2"></h5>
-                    </a>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <a href="#"> <img class=" imgCategoria" src="./img/comunidad8.bmp" alt="comunidad8">
-                        <h5 class="text-center mt-2"></h5>
-                    </a>
-                </div>
+        <div>
+
+            <div class="d-flex align-items-start ">
+                <p>
+                <h3>¡Tambien encontranos cerca de tu casa!</h3>
+                </p>
+                <iframe class="p-4"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14244.215792797391!2d-65.24718877571456!3d-26.80641080400093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d842b28b59d%3A0x58c5d8f01971a0b8!2sEl%20Calafate!5e0!3m2!1sen!2sar!4v1747014482699!5m2!1sen!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </section>
+
+        </div>
     </main>
-    <footer class="bg-primary py-4 text-center container ">
+    <footer class="bg-primary py-4 text-center container-fluid ">
         <h5 class=" text-light fs-3">Seguinos en nuestras redes :</h5>
         <a href="#" class="link-light fs-1 "><i class="bi bi-instagram"></i></a>
         <a href="#" class="link-light fs-1 mx-3"><i class="bi bi-meta"></i></a>
