@@ -19,10 +19,20 @@ main{
 
 .videoPortada{
   border:4px solid rgb(25, 0, 255);
-width: 100%;
-aspect-ratio: 1/1;
-object-fit: cover   ;
-height: 450px;
+  width: 100%; /* Asegura que el video ocupe todo el ancho del contenedor */
+            height: auto; /* Mantiene la proporción del video */
+            position: relative; /* Asegura que el video se mantenga en el contenedor */
+            top: 10%; /* Centra el video verticalmente */
+            left: 50%;
+            transform: translate(-50%, -50%); /* Ajusta la posición del video */
+            overflow: hidden;
+            padding: 20px;
+}
+
+.videoContenedor{
+    width:100%;
+    height: 300px;
+    overflow: hidden;
 }
 
 
