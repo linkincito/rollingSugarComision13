@@ -43,6 +43,10 @@ main{
     
     object-fit: cover;
 }
-
+ 
+#carrouselContenedor{
+    width: 50%;
+    left: 20%;
+}
 
 
